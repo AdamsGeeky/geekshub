@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "geekshub/client",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "GeeksHub is an ambitious open-source project aimed at enhancing collaboration, efficiency, and automation within the GitHub ecosystem",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,23 +9,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/AdamsGeeky/geekshub.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "AdamsGeeky <g@adamsgeek.in>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/AdamsGeeky/geekshub/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/AdamsGeeky/geekshub#readme",
   "dependencies": {
+    "mongoose": "^8.2.1",
     "next": "^13.0.6",
+    "next-auth": "^4.24.7",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-parallax-tilt": "^1.7.214"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
     "typescript": "^4.9.3"
   }
 }

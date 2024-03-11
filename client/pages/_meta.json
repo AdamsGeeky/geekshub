@@ -1,15 +1,35 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
+  "index": {
     "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+    "title": "GeeksHub",
+    "display": "hidden",
+    "theme": {
+      "typesetting": "raw"
+    }
+  },
+  "profile": {
+    "type": "page",
+    "title": "Profile",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "docs": {
+    "type": "page",
+    "title": "How to use"
+  },
+  "repoconfig": {
+    "type": "page",
+    "title": "Configure Repo",
+    "theme": {
+      "typesetting": "article"
+    }
+  },
+  "labelconfig": {
+    "type": "page",
+    "title": "Configure Label",
+    "theme": {
+      "typesetting": "article"
+    }
   }
 }
