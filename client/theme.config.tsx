@@ -57,8 +57,8 @@ const config: DocsThemeConfig = {
     const { frontMatter } = useConfig();
 
     const ogConfig = {
-      title: "GeeksHub",
-      description: "In this cruel world get your repository a GeeksHub",
+      title: "Geeksink",
+      description: "In this cruel world get your repository a Geeksink",
       author: {
         twitter: "AdamsGeeky",
       },
@@ -118,10 +118,10 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter();
 
     if (["/", "/docs"].includes(asPath)) {
-      return { titleTemplate: "Geekshub" };
+      return { titleTemplate: "Geeksink" };
     }
 
-    return { titleTemplate: `%s | Geekshub` };
+    return { titleTemplate: `%s | Geeksink` };
   },
   primaryHue: {
     light: 270,

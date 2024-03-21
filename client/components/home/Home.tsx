@@ -8,7 +8,7 @@ const Home: React.FC = () => {
   return (
     <div className="text-center ">
       <h3 className="text-5xl font-ginie text-center font-bold text-green-900 dark:text-white md:text-3xl lg:text-4xl my-4">
-        GeeksHub
+        Geeksink
       </h3>
 
       <div className=" w-full flex flex-col px-0 mx-0">

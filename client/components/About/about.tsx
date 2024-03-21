@@ -1,5 +1,7 @@
 import Tilt from "react-parallax-tilt";
 import Link from "next/link";
+import { GoGoal } from "react-icons/go";
+
 import { Container } from "./container";
 
 import Image from "next/image";
@@ -9,38 +11,35 @@ export default function About() {
     <>
       <div className="relative">
         <Container>
-          <h3 className="text-2xl font-ginie text-center font-bold text-green-900 dark:text-white md:text-3xl lg:text-4xl">
-            Why GeeksHub ?
+          <h3 className="text-2xl text-center font-bold text-green-900 dark:text-white md:text-3xl lg:text-4xl">
+          Meet Your GitHub Heroes - GeeksInk
           </h3>
 
           <div className="relative mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <Card
-              title="Very Efficient"
-              icon={<BoxIcon />}
+              title="Simplified"
+              icon={<GoGoal />}
               description={
                 <>
-                  It is very efficient and quick in giving responses and
-                  executing workflows.
+                  GeeksInk offers intuitive tools to manage your repositories with ease. From organizing codebases to handling pull requests, GeeksInk simplifies the entire process
                 </>
               }
             />
             <Card
-              title="Customization"
-              icon={<LightBulbIcon />}
+              title="Effortless"
+              icon={<GoGoal />}
               description={
                 <>
-                  User can customize all issue/pr open/close comments and also
-                  the custom labels.
+                  Tired of juggling numerous issues? GeeksInk comes to your rescue with automated issue management capabilities. Close, assign, or label issues effortlessly with simple commands.
                 </>
               }
             />
             <Card
-              title="Easier"
-              icon={<ThumbsUpIcon />}
+              title="Personalized"
+              icon={<GoGoal />}
               description={
                 <>
-                  Any one with the simple knowledge of the github repo can use
-                  the application and customize workflows.
+                  Enhance your team's camaraderie with personalized user greetings. GeeksInk adds a touch of warmth to your GitHub environment, fostering a sense of belonging and appreciation.
                 </>
               }
             />
@@ -122,7 +121,7 @@ function Card({ title, description, icon }: any) {
           <h4 className="text-xl font-semibold text-green-900 dark:text-white">
             {title}
           </h4>
-          <p className="mt-3 text-green-600 dark:text-green-400">{description}</p>
+          <p className="mt-3 text-black/90 dark:text-gray-600">{description}</p>
         </div>
       </div>
     </Tilt>
@@ -143,30 +142,5 @@ function ThumbsUpIcon() {
   );
 }
 
-function LightBulbIcon() {
-  return (
-    <>
-      <img
-        src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Magic%20Wand.png"
-        alt="Customization image"
-        width={70}
-        height={70}
-        className="object-contain mx-auto "
-      />
-    </>
-  );
-}
 
-function BoxIcon() {
-  return (
-    <>
-      <img
-        src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png"
-        alt="Resolution"
-        width={70}
-        height={70}
-        className="object-contain mx-auto "
-      />
-    </>
-  );
-}
+
