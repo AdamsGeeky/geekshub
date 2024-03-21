@@ -18,28 +18,28 @@ export default function About() {
           <div className="relative mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <Card
               title="Simplified"
-              icon={<GoGoal />}
+              icon={<Image src="/git.svg" alt="hero" width={100} height={100} />}
               description={
                 <>
-                  GeeksInk offers intuitive tools to manage your repositories with ease. From organizing codebases to handling pull requests, GeeksInk simplifies the entire process
+                  GeeksInk offers intuitive tools to manage your repositories with ease. Simplify your workflow with ease.
                 </>
               }
             />
             <Card
               title="Effortless"
-              icon={<GoGoal />}
+              icon={<Image src="/repo.svg" alt="hero" width={100} height={100} />}
               description={
                 <>
-                  Tired of juggling numerous issues? GeeksInk comes to your rescue with automated issue management capabilities. Close, assign, or label issues effortlessly with simple commands.
+                  Tired of juggling numerous issues? GeeksInk comes to your rescue with automated issue management capabilities
                 </>
               }
             />
             <Card
               title="Personalized"
-              icon={<GoGoal />}
+              icon={<Image src="/soure.svg" alt="hero" width={100} height={100} />}
               description={
                 <>
-                  Enhance your team's camaraderie with personalized user greetings. GeeksInk adds a touch of warmth to your GitHub environment, fostering a sense of belonging and appreciation.
+                  Enhance your team's camaraderie with personalized user greetings. GeeksInk adds a touch of warmth to your GitHub environment 
                 </>
               }
             />
@@ -128,19 +128,6 @@ function Card({ title, description, icon }: any) {
   );
 }
 
-function ThumbsUpIcon() {
-  return (
-    <>
-      <img
-        src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Old%20Key.png"
-        alt="Privacy"
-        width={50}
-        height={50}
-        className="object-contain mx-auto "
-      />
-    </>
-  );
-}
 
 
 

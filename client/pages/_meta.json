@@ -18,14 +18,14 @@
     "type": "page",
     "title": "How to use"
   },
-  "repoconfig": {
+  "repoConfig": {
     "type": "page",
     "title": "Configure Repo",
     "theme": {
       "typesetting": "article"
     }
   },
-  "labelconfig": {
+  "labelConfig": {
     "type": "page",
     "title": "Configure Label",
     "theme": {

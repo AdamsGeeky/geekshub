@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AdamsGeeky/geekshub#readme",
   "dependencies": {
+    "axios": "^1.6.8",
     "mongoose": "^8.2.1",
     "next": "^13.0.6",
     "next-auth": "^4.24.7",
@@ -27,6 +28,7 @@
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.0.1",
+    "react-markdown": "^9.0.1",
     "react-parallax-tilt": "^1.7.214"
   },
   "devDependencies": {
