@@ -15,6 +15,10 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
+  "paths": {
+    "@*": ["./*"]
+  },
+  "rootDir": "client",
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

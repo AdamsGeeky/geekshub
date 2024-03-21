@@ -1,6 +1,6 @@
 import React from "react";
 import { useSession } from "next-auth/react";
-import { About } from "@components/About/About";
+import  About  from "../About/about";
 
 const Home: React.FC = () => {
   const { data: session } = useSession();

@@ -25,6 +25,7 @@
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
     "react-parallax-tilt": "^1.7.214"
   },
   "devDependencies": {
