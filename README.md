@@ -6,16 +6,16 @@ Welcome to GeeksInk, your ultimate GitHub companion powered by the latest techno
 
 GeeksInk leverages the capabilities of Node.js, TypeScript, Next.js, Tailwind CSS, Nextra, GitHub App, Probot, and NextAuth to provide a seamless and efficient workflow for GitHub users.
 
-## Key Features
 
-1. **Streamlined Repository Management**: GeeksInk harnesses the power of Node.js and TypeScript to offer a suite of intuitive tools for managing GitHub repositories. From organizing codebases to handling pull requests, GeeksInk simplifies every aspect of repository management.
+## Key Features How GeeksInk Works
 
-2. **Automated Issue Handling**: With Probot integration, GeeksInk automates issue management tasks, allowing you to close, assign, or label issues effortlessly. Say goodbye to manual issue management and embrace a more efficient workflow.
+1) **Automated Commenting**: automatically comments on the opening and closing of issues and pull requests.
 
-3. **Enhanced Collaboration**: Foster a culture of collaboration within your development teams using GitHub App and NextAuth for authentication. GeeksInk's personalized user greetings add a human touch to interactions, promoting engagement and camaraderie.
+2) **Smart Labeling**: The tool intelligently assigns labels to issues and pull requests based on predefined criteria, enhancing organization and making it easier to categorize tasks.
 
-## How GeeksInk Works
+3) **Reaction Integration**: adds reactions to issues, allowing for quick and expressive feedback from contributors without the need for explicit comments.
 
+4) **Automated Issue Assign**: As soon as contributor comments ```\assign``` in the comment, the issue is automatically assigned to that contributor.
 
 ## Get Started with GeeksInk Today
 

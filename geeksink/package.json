@@ -1,0 +1,24 @@
+{
+  "name": "geeksink",
+  "version": "1.0.0",
+  "description": "managing your GitHub repositories becomes effortless, efficient, and downright enjoyable",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamsGeeky/geeksink.git"
+  },
+  "keywords": [
+    "githubapp",
+    "geeksink",
+    "geekink"
+  ],
+  "author": "AdamsGeeky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamsGeeky/geeksink/issues"
+  },
+  "homepage": "https://github.com/AdamsGeeky/geeksink#readme"
+}

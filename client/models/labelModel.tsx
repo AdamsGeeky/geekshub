@@ -6,5 +6,5 @@ const labelConfigSchema = new mongoose.Schema({
     label: String,
 });
 
-const labelModel  = mongoose.models.labelInfo || mongoose.model("labelModel",labelConfigSchema);
-export default labelModel;
+const labelConfig  = mongoose.models.labelInfo || mongoose.model("labelinfo",labelConfigSchema);
+export default labelConfig;

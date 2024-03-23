@@ -8,5 +8,5 @@ const repoConfigSchema = new mongoose.Schema({
     pullRequestCloseContent : String,
 });
 
-const repoModel  = mongoose.models.repoInfo || mongoose.model("repoModel",repoConfigSchema);
-export default repoModel;
+const repoConfig  = mongoose.models.repoInfo || mongoose.model("repoInfo",repoConfigSchema);
+export default repoConfig;

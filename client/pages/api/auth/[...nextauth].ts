@@ -1,7 +1,7 @@
 import { AuthOptions } from "next-auth";
 import GitHubProvider, { GithubProfile } from "next-auth/providers/github";
-import dbConnect from "../../utils/database";
-import  UserModel  from "../../models/userModel";
+import dbConnect from "../../../utils/database";
+import  UserModel  from "../../../models/userModel";
 import NextAuth from "next-auth/next";
 import { Profile } from "next-auth";
 import toast from "react-hot-toast";
